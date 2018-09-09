@@ -14,7 +14,7 @@ public class Testcase_001 extends bankBazzarProjectMethods {
 		author= "Karthick";
 		age=28;
 		BPCustomerMonth="Apr";
-		BPCustomerDate=6;
+		BPCustomerDate=20;
 	}
 	
 	@Test
