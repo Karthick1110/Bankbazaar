@@ -17,6 +17,6 @@ public class bankBazzarProjectMethods extends SeMethods {
 	
 	@AfterMethod(groups="common")
 	public void close() {
-	//	closeAllBrowsers();
+	closeAllBrowsers();
 	}
 }
