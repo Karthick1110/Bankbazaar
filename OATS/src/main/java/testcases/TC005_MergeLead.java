@@ -16,7 +16,7 @@ public class TC005_MergeLead extends ProjectMethods {
 		testCaseName = "TC005_MergeLead";
 		testCaseDescription ="Merge two leads";
 		category = "Smoke";
-		author= "Babu";
+		author= "Karthick";
 		dataSheetName="TC005";
 	}
 	@Test(dataProvider="fetchData")

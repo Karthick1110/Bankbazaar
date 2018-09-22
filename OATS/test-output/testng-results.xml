@@ -1,37 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="1" failed="1" ignored="2" total="4" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="23523" started-at="2018-09-09T07:12:10Z" finished-at="2018-09-09T07:12:34Z">
+  <suite name="Suite" duration-ms="16812" started-at="2018-09-22T12:21:07Z" finished-at="2018-09-22T12:21:24Z">
     <groups>
     </groups>
-    <test name="leads" duration-ms="23523" started-at="2018-09-09T07:12:10Z" finished-at="2018-09-09T07:12:34Z">
-      <class name="bankbazarTestCases.Testcase_001">
-        <test-method status="PASS" signature="startResult()[pri:0, instance:bankbazarTestCases.Testcase_001@6fc6f14e]" name="startResult" is-config="true" duration-ms="535" started-at="2018-09-09T07:12:09Z" finished-at="2018-09-09T07:12:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startResult -->
-        <test-method status="PASS" signature="setData()[pri:0, instance:bankbazarTestCases.Testcase_001@6fc6f14e]" name="setData" is-config="true" duration-ms="1" started-at="2018-09-09T07:12:10Z" finished-at="2018-09-09T07:12:10Z">
+    <test name="leads" duration-ms="16812" started-at="2018-09-22T12:21:07Z" finished-at="2018-09-22T12:21:24Z">
+      <class name="tests.TC001_CreateLead">
+        <test-method status="PASS" signature="setData()[pri:0, instance:tests.TC001_CreateLead@6069db50]" name="setData" is-config="true" duration-ms="1" started-at="2018-09-22T12:21:23Z" finished-at="2018-09-22T12:21:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method status="PASS" signature="startTestCase()[pri:0, instance:bankbazarTestCases.Testcase_001@6fc6f14e]" name="startTestCase" is-config="true" duration-ms="5" started-at="2018-09-09T07:12:10Z" finished-at="2018-09-09T07:12:10Z">
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:tests.TC001_CreateLead@6069db50]" name="startTestCase" is-config="true" duration-ms="0" started-at="2018-09-22T12:21:24Z" finished-at="2018-09-22T12:21:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestCase -->
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:bankbazarTestCases.Testcase_001@6fc6f14e]" name="launchBrowser" is-config="true" duration-ms="6011" started-at="2018-09-09T07:12:10Z" finished-at="2018-09-09T07:12:16Z">
+        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC001_CreateLead@6069db50]" name="login" is-config="true" duration-ms="0" started-at="2018-09-22T12:21:24Z" finished-at="2018-09-22T12:21:24Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'url' is required by BeforeMethod on method login but has not been marked @Optional or defined
+in D:\Test Leaf\bankbazaargit\OATS\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'url' is required by BeforeMethod on method login but has not been marked @Optional or defined
+in D:\Test Leaf\bankbazaargit\OATS\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="testSteps()[pri:0, instance:bankbazarTestCases.Testcase_001@6fc6f14e]" name="testSteps" duration-ms="17479" started-at="2018-09-09T07:12:16Z" finished-at="2018-09-09T07:12:34Z">
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC001_CreateLead@6069db50]" name="createLead" duration-ms="0" started-at="2018-09-22T12:21:24Z" data-provider="fetchData" finished-at="2018-09-22T12:21:24Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'url' is required by BeforeMethod on method login but has not been marked @Optional or defined
+in D:\Test Leaf\bankbazaargit\OATS\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'url' is required by BeforeMethod on method login but has not been marked @Optional or defined
+in D:\Test Leaf\bankbazaargit\OATS\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:290)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
+at org.testng.internal.Parameters.createParameters(Parameters.java:620)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:520)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSteps -->
-        <test-method status="PASS" signature="close()[pri:0, instance:bankbazarTestCases.Testcase_001@6fc6f14e]" name="close" is-config="true" duration-ms="0" started-at="2018-09-09T07:12:34Z" finished-at="2018-09-09T07:12:34Z">
+        </test-method> <!-- createLead -->
+        <test-method status="SKIP" signature="close()[pri:0, instance:tests.TC001_CreateLead@6069db50]" name="close" is-config="true" duration-ms="0" started-at="2018-09-22T12:21:24Z" finished-at="2018-09-22T12:21:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method status="PASS" signature="stopResult()[pri:0, instance:bankbazarTestCases.Testcase_001@6fc6f14e]" name="stopResult" is-config="true" duration-ms="453" started-at="2018-09-09T07:12:34Z" finished-at="2018-09-09T07:12:34Z">
+      </class> <!-- tests.TC001_CreateLead -->
+      <class name="bankbazarTestCases.Testcase_001">
+        <test-method status="PASS" signature="startResult()[pri:0, instance:bankbazarTestCases.Testcase_001@9597028]" name="startResult" is-config="true" duration-ms="687" started-at="2018-09-22T12:21:06Z" finished-at="2018-09-22T12:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startResult -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:bankbazarTestCases.Testcase_001@9597028]" name="setData" is-config="true" duration-ms="1" started-at="2018-09-22T12:21:07Z" finished-at="2018-09-22T12:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:bankbazarTestCases.Testcase_001@9597028]" name="startTestCase" is-config="true" duration-ms="5" started-at="2018-09-22T12:21:07Z" finished-at="2018-09-22T12:21:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:bankbazarTestCases.Testcase_001@9597028]" name="launchBrowser" is-config="true" duration-ms="15291" started-at="2018-09-22T12:21:07Z" finished-at="2018-09-22T12:21:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="FAIL" signature="testSteps()[pri:0, instance:bankbazarTestCases.Testcase_001@9597028]" name="testSteps" duration-ms="149" started-at="2018-09-22T12:21:22Z" finished-at="2018-09-22T12:21:22Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at bankbazarPages.HomePage.clickInvestments(HomePage.java:11)
+at bankbazarTestCases.Testcase_001.testSteps(Testcase_001.java:23)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSteps -->
+        <test-method status="PASS" signature="close()[pri:0, instance:bankbazarTestCases.Testcase_001@9597028]" name="close" is-config="true" duration-ms="620" started-at="2018-09-22T12:21:22Z" finished-at="2018-09-22T12:21:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="stopResult()[pri:0, instance:bankbazarTestCases.Testcase_001@9597028]" name="stopResult" is-config="true" duration-ms="402" started-at="2018-09-22T12:21:24Z" finished-at="2018-09-22T12:21:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopResult -->

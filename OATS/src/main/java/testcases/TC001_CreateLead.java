@@ -12,7 +12,7 @@ public class TC001_CreateLead extends ProjectMethods {
 		testCaseName = "TC001_CreateLead";
 		testCaseDescription ="Create a lead";
 		category = "Smoke";
-		author= "Babu";
+		author= "Karthick";
 		dataSheetName="TC001";
 	}
 	@Test(dataProvider="fetchData")

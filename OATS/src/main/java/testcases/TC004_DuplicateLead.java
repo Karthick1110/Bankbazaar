@@ -12,7 +12,7 @@ public class TC004_DuplicateLead extends ProjectMethods {
 		testCaseName = "TC004_DuplicateLead";
 		testCaseDescription ="Duplicate a lead";
 		category = "Smoke";
-		author= "Babu";
+		author= "Karthick";
 		dataSheetName="TC004";
 	}
 	@Test(dataProvider="fetchData")

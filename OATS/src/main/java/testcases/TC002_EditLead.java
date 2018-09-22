@@ -12,7 +12,7 @@ public class TC002_EditLead extends ProjectMethods {
 		testCaseName = "TC002_EditLead";
 		testCaseDescription ="Edit a lead";
 		category = "Smoke";
-		author= "Babu";
+		author= "Karthick";
 		dataSheetName="TC002";
 	}
 	@Test(dataProvider="fetchData")
